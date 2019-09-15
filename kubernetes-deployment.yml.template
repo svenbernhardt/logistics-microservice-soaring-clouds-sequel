@@ -21,7 +21,7 @@ spec:
         run: rest-logisticsms
     spec:
       containers:
-      - image: wcr.io/$WERCKER_APPLICATION_OWNER_NAME/$WERCKER_APPLICATION_NAME:$WERCKER_GIT_BRANCH-$WERCKER_GIT_COMMIT
+      - image: $DOCKER_USERNAME/logistics-ms:$WERCKER_GIT_COMMIT
         imagePullPolicy: Always
         name: rest-logisticsms
         ports:
