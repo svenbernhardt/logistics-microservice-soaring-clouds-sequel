@@ -50,6 +50,7 @@ spec:
   selector:
     run: rest-logisticsms
   ports:
-    - port: 8088
+    - nodePort: 30060
+      port: 8088
       targetPort: 8096
-  type: ClusterIP
+  type: NodePort
