@@ -1,4 +1,4 @@
-box: node:8.9.4-wheezy
+box: node:9
 build:
   steps:
     - script:
