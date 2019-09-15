@@ -32,6 +32,8 @@ spec:
             value: $ELASTIC_CONNECTOR_VARIABLE
           - name: EVENT_HUB_HOST
             value: $EVENT_HUB
+          - name: KAFKA_HOST
+            value: $KAFKA_HOST
           - name: SCHEMA_REGISTRY
             value: $SCHEMA_REGISTRY
           - name: SOARING_PRODUCTS_TOPIC_NAME 
