@@ -21,6 +21,7 @@ push-to-releases:
         ports: "8080"
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
+        repository: $DOCKER_USERNAME/logistics-ms
 
 # for now we will delete and recreate the namespace, however, at some point that may be a little much for just a redeployment of the Pod! 
 deploy-to-oke:
