@@ -90,7 +90,7 @@ deploy-to-oke:
         server: $KUBERNETES_MASTER
         token: $KUBERNETES_TOKEN
         insecure-skip-tls-verify: true
-        command: rollout status deployment/microp
+        command: rollout status deployment/rest-logisticsms
 
 # redeployment after the code has changed; no changes in kubernetes configuration 
 redeploy-to-oke:
